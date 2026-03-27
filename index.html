@@ -3,70 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGOC COMPANY</title>
+    <meta name="description" content="AGOC Company - Providing top-notch services in tech and consulting">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>AGOC Company</title>
 </head>
 <body>
+    <div id="preloader"></div>
+    <header>
+        <nav>
+            <div class="logo">AGOC</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section id="hero">
-        <h1>Welcome to AGOC Company</h1>
-        <p>Your partners in success.</p>
+        <div class="hero-content">
+            <h1>Welcome to AGOC Company</h1>
+            <p>Your success is our priority.</p>
+            <a href="#appointment" class="btn">Book an Appointment</a>
+        </div>
     </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>AGOC Company has been a leader in the industry for over 10 years.</p>
-    </section>
-
-    <section id="companies">
-        <h2>Our Companies</h2>
-        <ul>
-            <li>Company A</li>
-            <li>Company B</li>
-            <li>Company C</li>
-        </ul>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Consulting</li>
-            <li>Development</li>
-            <li>Design</li>
-        </ul>
-    </section>
-
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <blockquote>
-            <p>This company is amazing!</p>
-            <cite>- Happy Client</cite>
-        </blockquote>
-    </section>
-
-    <section id="vision">
-        <h2>Our Vision</h2>
-        <p>To be the best in the business.</p>
-    </section>
-
-    <section id="ai-assistant">
-        <h2>AI Assistant</h2>
-        <p>Meet your new AI assistant that helps automate your tasks.</p>
-    </section>
-
-    <section id="business-card">
-        <h2>Your Business Card</h2>
-        <p>Download your virtual business card.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
+    <section id="appointment">
+        <h2>Schedule an Appointment</h2>
         <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
             <input type="submit" value="Submit">
         </form>
     </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading company in technology solutions.</p>
+    </section>
+    <section id="stats">
+        <h2>Our Stats</h2>
+        <div class="stat-item">100+ Projects Completed</div>
+        <div class="stat-item">200+ Happy Clients</div>
+    </section>
+    <section id="companies">
+        <h2>Our Partners</h2>
+        <div class="partner-logo">Company 1</div>
+        <div class="partner-logo">Company 2</div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">Consulting</div>
+        <div class="service-item">Development</div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <img src="client1.jpg" alt="Client 1">
+            <p>AGOC helped us achieve amazing results!</p>
+            <cite>- Client 1</cite>
+        </div>
+        <div class="testimonial">
+            <img src="client2.jpg" alt="Client 2">
+            <p>Fantastic service and support.</p>
+            <cite>- Client 2</cite>
+        </div>
+    </section>
+    <section id="vision">
+        <h2>Our Vision</h2>
+        <p>To be the best in our industry.</p>
+    </section>
+    <section id="ai-assistant">
+        <h2>AI Assistant</h2>
+        <p>Let our AI assist you in your tasks.</p>
+    </section>
+    <section id="business-card">
+        <h2>Your Digital Business Card</h2>
+        <p>Design your business card online.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for more information.</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 AGOC Company. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
